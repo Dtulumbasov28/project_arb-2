@@ -1,31 +1,3 @@
-Главная страница:
-- Доставка
-(
-Заголовок: Delivery
-Текст:
-At Milk Bliss, we proudly deliver premium dairy products across India. From bustling cities to tranquil countryside, we ensure timely delivery to every corner of the country.
-Experience the convenience of shopping from home and enjoy our exceptional quality products delivered fresh to your doorstep. Join satisfied customers nationwide and let Milk Bliss bring bliss to your home.
-)
-Страница контактов:
-- О нас
-(
-	Заголовок: About Milk Bliss
-	Текст:
-At Milk Bliss, our passion lies in creating dairy products that elevate every moment. Rooted in the belief that the purest ingredients yield the most exquisite flavors, we've dedicated ourselves to crafting premium-quality offerings that not only tantalize the taste buds but also nurture the body and soul.
-
-Our commitment to excellence transcends product creation; it encompasses every facet of our operations. From meticulously sourcing ingredients to embracing sustainable practices, we uphold integrity and environmental stewardship. Transparency is paramount as we endeavor to foster trust through unwavering dedication to quality and service.
-
-Yet, Milk Bliss is more than a mere brand; it's a thriving community. We deeply value the relationships forged with our customers, partners, and team members, recognizing their invaluable support. Together, we revel in life's simple pleasures, savoring each delightful sip.
-
-Embark on our journey to spread joy through dairy, and immerse yourself in the blissful world of Milk Bliss.
-)
-- Контакты
-Phone number: +91-241-8371386
-Address: Ground, 1st And 2,d Floor, Lily Trade, Jahangirabad, Neelam Park, Madhya Pradesh, India
-Email: milkbliss@gmail.com
-Страница о нас
-- Наша продукция
-
 Документация: 
 
 //------------------------------------------------------------------------------
