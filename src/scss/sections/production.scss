@@ -1,0 +1,52 @@
+.production {
+  // .production__container
+
+  &__container {
+  }
+
+  // .production__title
+
+  &__title {
+    text-align: center;
+  }
+
+  // .production__body
+
+  &__body {
+  }
+
+  // .production__top
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
+  // .production__item
+
+  &__item {
+    border-radius: $borderRadius;
+    overflow: hidden;
+
+    & img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: $borderRadius;
+      overflow: hidden;
+    }
+  }
+
+  // .production__bottom
+
+  &__bottom {
+    font-size: 22px;
+	 line-height: 1.5;
+
+	 & li {
+		margin-bottom: 5px;
+	 }
+  }
+}

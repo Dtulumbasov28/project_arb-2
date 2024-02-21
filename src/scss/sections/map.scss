@@ -1,0 +1,85 @@
+.map1 {
+  // .map1__container
+
+  &__container {
+  }
+
+  // .map1__body
+
+  &__body {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 30px;
+    @media (max-width: $mobile) {
+      flex-direction: column;
+    }
+  }
+
+  // .map1__left
+
+  &__left {
+  }
+
+  // .map1__text
+
+  &__text {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.75;
+    @media (max-width: $tablet) {
+      font-size: 26px;
+    }
+    @media (max-width: $mobile) {
+      font-size: 20px;
+    }
+  }
+
+  // .map1__item
+
+  &__item {
+    & span {
+      color: $colorThree;
+    }
+    &:not(:last-child) {
+      margin-bottom: 30px;
+
+      @media (max-width: $mobile) {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  // .map1__right
+
+  &__right {
+    width: 500px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: $borderRadius;
+    overflow: hidden;
+
+    @media (max-width: $tablet) {
+      width: 400px;
+      height: 500px;
+    }
+	 
+    @media (max-width: $mobile) {
+      width: 100%;
+      max-width: 500px;
+      height: 500px;
+    }
+
+    @media (max-width: $mobileSmall) {
+      width: 100%;
+      max-width: 500px;
+      height: 400px;
+    }
+
+    & img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

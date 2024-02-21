@@ -1,0 +1,172 @@
+//====================================================================================================
+.header1 {
+  // .header1__container
+
+  &__container {
+  }
+
+  // .header1__body
+
+  &__body {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  // .header1__logo
+
+  &__logo {
+    width: 120px;
+    margin: 0 50px 0 0;
+
+    @media (max-width: $tablet) {
+      margin: 0 auto;
+    }
+
+    @media (max-width: $mobileSmall) {
+      width: 80px;
+    }
+
+    & img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  // .header1__menu
+
+  &__menu {
+    display: flex;
+    margin: 0 auto 0 0;
+
+    @media (max-width: $tablet) {
+      order: -1;
+		margin: 0;
+    }
+  }
+
+  // .header1__menu-burger
+
+  &__menu-burger {
+  }
+
+  // .header1__menu-nav
+
+  &__menu-nav {
+  }
+
+  // .header1__button
+
+  &__button {
+  }
+}
+.icon-menu {
+}
+.menu1 {
+  @media (max-width: $tablet) {
+    position: absolute;
+    z-index: 10;
+    left: -200vw;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $colorThree;
+    transition: all 0.2s;
+  }
+  // .menu1__list
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    @media (max-width: $tablet) {
+      flex-direction: column;
+      gap: 40px;
+    }
+  }
+
+  // .menu1__item
+
+  &__item {
+    display: flex;
+  }
+
+  // .menu1__link
+
+  &__link {
+    font-weight: 700;
+    text-transform: uppercase;
+
+    padding: 5px 10px;
+
+    @media (max-width: $tablet) {
+      font-size: 26px;
+      color: $colorTwo;
+    }
+  }
+}
+.button {
+  // .button__black
+
+  &__black {
+  }
+}
+
+//====================================================================================================
+
+//Burger
+
+.icon-menu {
+  display: none;
+  @media (max-width: $tablet) {
+    display: block;
+    position: relative;
+    width: rem(34);
+    height: rem(22);
+    cursor: pointer;
+    z-index: 11;
+    span,
+    &::before,
+    &::after {
+      content: "";
+      transition: all 0.3s ease 0s;
+      right: 0;
+      position: absolute;
+      width: 100%;
+      height: rem(2);
+      background-color: $colorOne;
+    }
+    &::before {
+      top: 0;
+    }
+    &::after {
+      bottom: 0;
+    }
+    span {
+      top: calc(50% - rem(1));
+    }
+    .menu-open & {
+      span {
+        width: 0;
+        background-color: $colorTwo;
+      }
+      &::before,
+      &::after {
+        background-color: $colorTwo;
+      }
+      &::before {
+        top: calc(50% - rem(1));
+        transform: rotate(-45deg);
+      }
+      &::after {
+        bottom: calc(50% - rem(1));
+        transform: rotate(45deg);
+      }
+    }
+  }
+}

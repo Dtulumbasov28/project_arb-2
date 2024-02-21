@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Welcome to Milk Bliss – Your Source of Premium Dairy Products</title>
+		<meta name="description" content="Discover Milk Bliss, where we blend tradition with innovation to offer a wide range of high-quality dairy products. From fresh milk to artisan cheeses, our passion for excellence shines in every product. Join us on a journey of taste and purity in every sip and bite.">
+		<meta charset="UTF-8">
+		<meta name="format-detection" content="telephone=no">
+		<link rel="stylesheet" href="css/style.min.css">
+		<link rel="shortcut icon" href="favicon.jpg">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<div class="wrapper">
+			@@include('html/_header.htm',{})
+			<main class="page">
+				@@include('html/_main.htm',{})
+				@@include('html/_about.htm',{})
+				@@include('html/_benefits.htm',{})
+				@@include('html/_production.htm',{})
+				@@include('html/_form.htm',{})
+			</main>
+			@@include('html/_footer.htm',{})
+		</div>
+		@@include('html/_js.htm',{})
+	</body>
+</html>
