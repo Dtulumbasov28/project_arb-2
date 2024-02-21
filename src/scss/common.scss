@@ -4,8 +4,14 @@ section {
   padding: 50px 0;
 
   @media (max-width: $mobileSmall) {
-	padding: 30px 0;
+    padding: 30px 0;
   }
+}
+h1 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 40px;
 }
 h2 {
   font-size: 38px;
@@ -82,4 +88,14 @@ p {
   p {
     margin-bottom: 10px;
   }
+}
+.page__thanks {
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.thanks__button {
+  margin: 20px auto;
 }
